@@ -1,7 +1,5 @@
-FROM fedora
+FROM cloudandbigdatalab/image-processing
 
 MAINTAINER shawnmaten@gmail.com
 
-RUN dnf update -y && dnf install -y numpy opencv*
-
-RUN dnf install -y scipy python-matplotlib ipython ipython-notebook python-pandas sympy python-nose
+RUN dnf update -y && dnf install -y opencv*
