@@ -1,4 +1,4 @@
-FROM cloudandbigdatalab/opencv
+FROM cloudandbigdatalab/image-processing:opencv
 
 MAINTAINER shawnmaten@gmail.com
 
