@@ -1,4 +1,4 @@
-FROM cloudandbigdatalab/image-processing
+FROM cloudandbigdatalab/image-processing:base
 
 MAINTAINER shawnmaten@gmail.com
 
